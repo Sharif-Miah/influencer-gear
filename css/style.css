@@ -157,7 +157,7 @@ h1.header-text {
 .gullury {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 
 .gulury-item {
@@ -195,4 +195,71 @@ h1.header-text {
     margin: 8px 0;
 }
 
+.right-icon-ptag {
+    text-align: right;
+    margin-top: 60px;
+}
+
+.right-icon-ptag p {
+    color: #fb8200;
+}
+
+.right-icon-ptag i {
+    margin-left: 5px;
+}
+
 /*----------- end gullary  section------------*/
+
+
+.fetured {
+    display: flex;
+}
+
+.fetured-width {
+    width: 50%;
+}
+
+.fetured-img {
+    text-align: center;
+}
+
+.fetured-text {
+    margin-top: 40px;
+}
+
+.fetured-text h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.fetured-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #0a0826;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.footer p {
+    margin: 15px 0;
+}
+
+.footer-icon i {
+    background-color: #22203b;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
