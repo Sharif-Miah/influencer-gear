@@ -147,71 +147,52 @@ hr {
 
 
 /*-----------start gullary section------------*/
-h1.collection-text {
-    font-size: 22px;
+h1.header-text {
+    font-size: 52px;
     color: #6e6e6e;
     text-align: center;
     margin-bottom: 60px;
 }
 
-/* .collection-gellury {
+.gullury {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-gap: 30px; */
+    grid-gap: 20px;
 }
 
-*/
-/* .gellury-item {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-} */
+.gulury-item {
+    margin: 0 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 
-/* .thumnull-text {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-} */
+.gulury-item img {
+    width: 100%;
+}
 
-/* .thumnull-img img {
-    width: 80%;
-} */
-
-.thumnull-text h2 {
+.gulury-item h3 {
     font-size: 30px;
-    /* margin: 12px 0; */
-    font-weight: 500;
+    margin: 15px 0;
 }
 
-.thumnull-text .value {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 10px;
+.gulury-item h4 {
+    font-size: 22px;
+    margin: 10px 0;
 }
 
-.thumnull-text .rating {
-    margin-bottom: 10px;
-}
 
-.thumnull-text .rating i {
+.rating i {
     color: #fb8200;
 }
 
-.thumnull-text .rating span {
-    font-weight: 700;
+.rating span {
     margin-left: 7px;
 }
 
-.thumnull-text p {
+.rating p {
     font-size: 18px;
     line-height: 1.5;
-    font-weight: bold;
+    margin: 8px 0;
 }
-
 
 /*----------- end gullary  section------------*/
-
-.collection {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.collection-item {
-    border: 3px solid #222;
-}
